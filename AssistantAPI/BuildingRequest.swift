@@ -29,7 +29,7 @@ struct BuildingRequest {
     
     /// Get all buildings
     func buildingRequest(completion: @escaping(Result<[BuildingDetail], Error>) -> Void) {
-        
+        print("Hello")
     }
     
     /// Get recommendation for a location.
