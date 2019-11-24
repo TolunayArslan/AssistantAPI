@@ -16,4 +16,6 @@ struct BuildingDetail: Decodable {
     var id: Int
     var name: gitString
     var adress: String
+    var OK = 99
+    
 }
