@@ -15,6 +15,7 @@
 		FA965482238986CD002DCC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA965480238986CD002DCC1C /* LaunchScreen.storyboard */; };
 		FA96548C23898C9D002DCC1C /* BuildingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96548B23898C9D002DCC1C /* BuildingApi.swift */; };
 		FA96548E238993DA002DCC1C /* BuildingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96548D238993DA002DCC1C /* BuildingRequest.swift */; };
+		FAA24D6C238A931000D5F642 /* BuildingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA24D6B238A931000D5F642 /* BuildingDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FA965483238986CD002DCC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA96548B23898C9D002DCC1C /* BuildingApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingApi.swift; sourceTree = "<group>"; };
 		FA96548D238993DA002DCC1C /* BuildingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingRequest.swift; sourceTree = "<group>"; };
+		FAA24D6B238A931000D5F642 /* BuildingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				FA965489238986DC002DCC1C /* Supporting Files */,
 				FA965479238986CB002DCC1C /* ViewController.swift */,
+				FAA24D6B238A931000D5F642 /* BuildingDataSource.swift */,
 				FA96547B238986CB002DCC1C /* Main.storyboard */,
 				FA96548B23898C9D002DCC1C /* BuildingApi.swift */,
 				FA96548D238993DA002DCC1C /* BuildingRequest.swift */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA24D6C238A931000D5F642 /* BuildingDataSource.swift in Sources */,
 				FA96548E238993DA002DCC1C /* BuildingRequest.swift in Sources */,
 				FA96547A238986CB002DCC1C /* ViewController.swift in Sources */,
 				FA965476238986CB002DCC1C /* AppDelegate.swift in Sources */,
