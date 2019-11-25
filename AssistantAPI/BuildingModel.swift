@@ -11,11 +11,22 @@ import Foundation
 struct BuildingResponse: Decodable {
     var reponse: [BuildingDetail]
 }
-typealias gitString = String
+
 struct BuildingDetail: Decodable {
     var id: Int
-    var name: gitString
+    var name: String
     var adress: String
-    var OK = 99
-    
+}
+
+//
+
+struct RecommendationResponse: Decodable {
+    //var response: String
+    var recommendedAreas: [RecommendationDetail]
+}
+
+struct RecommendationDetail: Decodable {
+    var name: String
+    var available: Int
+    var occupiedPercent: Double
 }

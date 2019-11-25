@@ -13,7 +13,7 @@
 		FA96547D238986CB002DCC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA96547B238986CB002DCC1C /* Main.storyboard */; };
 		FA96547F238986CD002DCC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA96547E238986CD002DCC1C /* Assets.xcassets */; };
 		FA965482238986CD002DCC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA965480238986CD002DCC1C /* LaunchScreen.storyboard */; };
-		FA96548C23898C9D002DCC1C /* BuildingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96548B23898C9D002DCC1C /* BuildingApi.swift */; };
+		FA96548C23898C9D002DCC1C /* BuildingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96548B23898C9D002DCC1C /* BuildingModel.swift */; };
 		FA96548E238993DA002DCC1C /* BuildingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96548D238993DA002DCC1C /* BuildingRequest.swift */; };
 		FAA24D6C238A931000D5F642 /* BuildingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA24D6B238A931000D5F642 /* BuildingDataSource.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		FA96547E238986CD002DCC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA965481238986CD002DCC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA965483238986CD002DCC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA96548B23898C9D002DCC1C /* BuildingApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingApi.swift; sourceTree = "<group>"; };
+		FA96548B23898C9D002DCC1C /* BuildingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingModel.swift; sourceTree = "<group>"; };
 		FA96548D238993DA002DCC1C /* BuildingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingRequest.swift; sourceTree = "<group>"; };
 		FAA24D6B238A931000D5F642 /* BuildingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 				FA965479238986CB002DCC1C /* ViewController.swift */,
 				FAA24D6B238A931000D5F642 /* BuildingDataSource.swift */,
 				FA96547B238986CB002DCC1C /* Main.storyboard */,
-				FA96548B23898C9D002DCC1C /* BuildingApi.swift */,
+				FA96548B23898C9D002DCC1C /* BuildingModel.swift */,
 				FA96548D238993DA002DCC1C /* BuildingRequest.swift */,
 				FA965483238986CD002DCC1C /* Info.plist */,
 			);
@@ -160,7 +160,7 @@
 				FA96547A238986CB002DCC1C /* ViewController.swift in Sources */,
 				FA965476238986CB002DCC1C /* AppDelegate.swift in Sources */,
 				FA965478238986CB002DCC1C /* SceneDelegate.swift in Sources */,
-				FA96548C23898C9D002DCC1C /* BuildingApi.swift in Sources */,
+				FA96548C23898C9D002DCC1C /* BuildingModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
